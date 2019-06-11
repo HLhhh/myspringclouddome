@@ -1,3 +1,7 @@
+.idea
+.project
+
+
 # Compiled class file
 *.class
 
@@ -14,7 +18,7 @@
 *.jar
 *.war
 *.nar
-*.ear
+*.ear 
 *.zip
 *.tar.gz
 *.rar
