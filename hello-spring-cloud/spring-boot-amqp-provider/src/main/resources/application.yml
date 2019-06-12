@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: spring-boot-amqp
+  rabbitmq:
+    host: 192.168.159.131
+    port: 5672
+    username: lin
+    password: 123456
+    virtual-host: /myvhost_mmr
+#    listener:
+#      simple:
+#        prefetch: 1
+#        acknowledge-mode: manual
+
+server:
+  port: 8800
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
